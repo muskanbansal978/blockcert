@@ -14,10 +14,14 @@ Certicate generated in Certicate folder
 ```
 certificate is generated in folder **"certificate"**
 
+In some cases Transaction hash, you need this to verify the certificate on blockchain::::undefined is show and error of ENOENT is given this is because node is not able to find the file in directory so add the file .
+
+If it doesnt still work go ahead with verify certificate as ur certificate is already added so it will still show in the browser
+
 ## Verify certificate
 ```
 node verify.js 
 ? Enter private key of issuier wallet==>  0xd3e3afcc919d13d8e81bd4d1270af4567738ddffe5243a398d132e13423ab8b3
 ```
 
-It will open certificate on firefox browser
+It will open certificate on chrome
